@@ -2,6 +2,18 @@
 
 > Boilerplate for ReplaceMe backend
 
+## TODO
+
+- [ ] Heroku deployment setup
+- [ ] PostgreSQL database setup
+- [ ] Backend with TypeScript and Feathers
+- [ ] Feathers Authentication
+- [ ] Storage service for Heroku
+- [ ] Rate limiting (express) and caching (@feathersjs/memory)
+- [ ] AI Integration (Gemini, Claude, OpenAI)
+- [ ] In-app payments (Apple Pay, Google Pay, Stripe)
+- [ ] Firebase Cloud Messaging (FCM) for push notifications
+
 ## About
 
 This project uses [Feathers](http://feathersjs.com). An open source framework for building APIs and real-time applications.
@@ -11,18 +23,18 @@ This project uses [Feathers](http://feathersjs.com). An open source framework fo
 1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
 2. Install your dependencies
 
-    ```
-    cd path/to/replaceme-backend
-    npm install
-    ```
+   ```
+   cd path/to/replaceme-backend
+   npm install
+   ```
 
 3. Start your app
 
-    ```
-    npm run compile # Compile TypeScript source
-    npm run migrate # Run migrations to set up the database
-    npm start
-    ```
+   ```
+   npm run compile # Compile TypeScript source
+   npm run migrate # Run migrations to set up the database
+   npm start
+   ```
 
 ## Testing
 
